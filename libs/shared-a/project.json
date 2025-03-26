@@ -1,0 +1,19 @@
+{
+  "name": "shared-a",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared-a/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/shared-a",
+        "main": "libs/shared-a/src/index.ts",
+        "tsConfig": "libs/shared-a/tsconfig.lib.json",
+        "assets": ["libs/shared-a/*.md"]
+      }
+    }
+  }
+}

@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nxtest/ng-core": ["libs/ng-core/src/index.ts"]
+      "@nxtest/ng-core": ["libs/ng-core/src/index.ts"],
+      "@nxtest/shared-a": ["libs/shared-a/src/index.ts"],
+      "@nxtest/shared-b": ["libs/shared-b/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
